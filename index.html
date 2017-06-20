@@ -1,48 +1,79 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Google</title>
 		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 	<body>
-			<div class=nav-bar>
+		<div class=nav-bar>
 			<ul>
-				<li><a href="#"><img id="account-icon"src="images/google-account-logo.png" alt="google account logo"/></a></li>
-				<li><a href="#"><img id="notif-icon" src="images/bell.png" alt="google notifications logo"/></a></li>
-				<li><a href="#"><img id="apps-icon" src="https://raw.githubusercontent.com/jigogwapo/google-homepage/master/images/apps-icon.png" alt="google apps icon"/></a></li>
-				<li><a href="#">Images</a></li>
-				<li><a href="#">Gmail</a></li>
+				<li>
+					<!--<img id="account-icon" src="images/google-account-logo.png" alt="google account logo"/>-->
+					<button>
+					  <a href="#">A</a>
+					</button>
+				</li>
+				<li>
+					<a href="#"><img src="images/bell.png" alt="google notifications logo"/></a>
+				</li>
+				<li>
+					<a href="#"><img src="https://raw.githubusercontent.com/jigogwapo/google-homepage/master/images/apps-icon.png" alt="google apps icon"/></a>
+				</li>
+				<li>
+					<a href="#">Images</a>
+				</li>
+				<li>
+					<a href="#">Gmail</a>
+				</li>
 			</ul>
-			</div>
-		<div class="center-elements">
-			<img src="https://s3.amazonaws.com/images.seroundtable.com/google-canada-1309524714.jpg" alt="google canada logo"/>
-		
-		<form action="searchengine.php" method="get"></form>
-
-		<p><textarea rows="2" cols="50">Search Google or type URL</textarea></p>
-	
-	<div class="button">
-		<input type="submit" value="Google Search"/>
-		<input type="submit" value= "I'm Feeling Lucky"/>
-	</div>
-	<p>Google.ca offered in: <a id="language" href="#">Français</a></p>
-	</div>
-
-<div class=footer> <!--Can't figure out how to place footer on bottom of page-->
-<div class=foot-left>
-	<ul>
-		<li><a href="#">Advertising</a></li>
-		<li><a href="#">Business</a></li>
-		<li><a href="#">About</a></li>
-	</ul>
-	</div>
-	<div class=foot-right>
-	<ul>	
-		<li><a href="#">Use Google.com</a></li>
-		<li><a href="#">Settings</a></li>
-		<li><a href="#">Terms</a></li>
-		<li><a href="#">Privacy</a></li>
-	</ul>
 		</div>
-	</div>
-</body>
+		<div class="center-elements">
+			<img src="https://s3.amazonaws.com/images.seroundtable.com/google-canada-1309524714.jpg" alt="google canada logo">
+			
+			<form action="searchengine.php" method="get">
+				<p>
+					<textarea rows="2" cols="50">Search Google or type URL</textarea>
+				</p>
+				
+				<div class="button">
+					<input type="submit" value="Google Search"/>
+					<input type="submit" value= "I'm Feeling Lucky"/>
+				</div>
+			</form>
+			<p>Google.ca offered in: <a id="language" href="#">Français</a></p>
+		</div>
+		<!--Can't figure out how to place footer on bottom of page-->
+		<div class=footer>
+			<div class=foot-left>
+				<ul>
+					<li>
+						<a href="#">Advertising</a>
+					</li>
+					<li>
+						<a href="#">Business</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+				</ul>
+			</div>
+			<div class=foot-right>
+				<ul>
+					<li>
+						<a href="#">Use Google.com</a>
+					</li>
+					<li>
+						<a href="#">Settings</a>
+					</li>
+					<li>
+						<a href="#">Terms</a>
+					</li>
+					<li>
+						<a href="#">Privacy</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
